@@ -1,0 +1,330 @@
+*{
+    box-sizing: border-box;
+    margin-top: 0px;
+}
+.nav{
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    background-color: white;
+}
+.nav img{
+    position: relative;
+    top: 28px;
+    left: -25px;
+    font-size: larger;
+}
+.nav .left{
+    width: 45%;
+    position: relative;
+    top: -10px;
+    left: 10px;
+    margin-left: 60px;
+}
+.right li{
+    display: inline;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+.body{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+}
+.body .left{
+    width: 60%;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.body .left h2{
+    font-size: 60px;
+}
+p{
+    margin-top: -20px;
+}
+#registernow{
+    padding: 10px;
+    background-color: green;
+}
+#white{
+    color: white;
+}
+.material-symbols-outlined{
+    position: relative;
+    top: 8px;
+}
+input{
+    padding: 10px;
+    background-color: green;
+    border: none;
+    color: white;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+.body .right{
+    margin-top: 20px;
+}
+.ellipse{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    font-size: larger;
+}
+
+#section2{
+    text-align: center;
+}
+.d1{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.d2{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 40px;
+}
+
+.d3{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.d3::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+.column{
+    float: left;
+    width: 33.33%
+}
+
+.d4{
+    display: flex;
+    
+}
+
+.d4 .left{
+    width: 40%;
+    margin-left: 60px;
+}
+
+.d4 .right{
+    width: 40%;
+    margin-top: 90px;
+    text-align: left;
+}
+.d4 a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border-radius: 5%;
+    
+}
+
+.d5{
+    display: flex;
+}
+
+.d5 .left{
+    width: 50%;
+    margin-left: 90px;
+    margin-top: 90px;
+}
+.d5 .right{
+    display: flex;
+    width: 50%;
+    font-size: -30px;
+}
+.d5 .right .leftin{
+    width: 50%;
+}
+
+.d5 .right #icon{
+    position: relative;
+    right: 70px;
+    top: 50px;
+    font-weight: lighter;
+}
+
+
+.d6{
+    margin-top: 40px;
+    display: flex;
+    width: 100%;
+}
+
+.d6 .left{
+    width: 40%;
+    margin-left: 90px;
+}
+
+.d6 .right{
+    width: 40%;
+    margin-top: 100px;
+}
+
+.d6 a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: green;
+    border-radius: 5%;
+}
+
+.d7{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.d7 .left{
+    width: 30%;
+    margin-left: 40px;
+    margin-top: 36px;
+}
+
+.d7 .right{
+    width: 40%;
+    margin-top: 60px;
+}
+
+.d8{
+    text-align: center;
+    margin-top: 40px;
+    line-height: 25px;
+}
+
+.d9{
+    display: flex;
+    margin-left: 250px;
+}
+
+.d9 img{
+    width: 250px;
+    height:250px;
+    padding: 10px;
+}
+
+.d10{
+    display: flex;
+    text-align: center;
+    margin-left: 250px;
+    z-index: -1;
+}
+.d10-1{
+    padding: 20px;
+    background-color: whitesmoke;
+    position: relative;
+    top: -80px;
+    left: 10px;
+
+}
+
+.d10-2{
+    padding: 20px;
+    background-color: whitesmoke;
+    position: relative;
+    top: -80px;
+    left: 35px;
+}
+
+.d10-3{
+    padding: 20px;
+    background-color: whitesmoke;
+    position: relative;
+    top: -80px;
+    left: 65px;
+   
+}
+
+.d10 a{
+    text-decoration: none;
+    color: green;
+}
+
+.d11{
+    text-align: center;
+}
+.d11 a{
+    color: white;
+    background-color: green;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.d12{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 130px;
+    padding: 10px;
+    background-color: rgb(60, 60, 60);
+    width: 80%;
+    color: white;
+}
+
+.d12 li{
+    list-style-type: none;
+    color: white;
+}
+.d12 li a{
+    color: white;
+}
+.d12-1{
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+
+.d12-1 span h1{
+    position: relative;
+    left: 30px;
+    top: -20px;
+}
+
+
+.d12-1 span img{
+    position: relative;
+    top: 10px;
+}
+
+.d12-2{
+    margin-right: 60px;
+    color: white;
+}
+
+.d12-3{
+    margin-right: 60px;   
+}
+
+#footerinput{
+    background-color: rgb(105, 103, 103);
+    color: white;
+    width: 250px;
+}
+
+.d12-4-1 img{
+    position: relative;
+    top: 5px;
+    left: -30px;
+}
+
+.socials img{
+    position: relative;
+    left: 0px;
+    margin-left: 20px;
+}
+#IG{
+    position: relative;
+    top: 8px;
+}
