@@ -50,12 +50,20 @@
                         </form>
 
                         <div class="justify-content-center align-items-center ">
-                            <p class="text-center">Already have an account?<a href="#" class="text-decoration-none text-success">Log In</a></p>
+                            <p class="text-center">Already have an account?<a href="#" class="text-decoration-none text-success" id="signin">Log In</a></p>
                         </div>
                     </div>
                 </div>
             </div>
     </div>
+
+        function loginFunction(){
+    document.getElementById('signin').addEventListener("click", ()=>{
+        window.location.href = "./login.html"
+        loginFunction()
+    })
+}
+loginFunction()
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
