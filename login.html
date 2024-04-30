@@ -41,7 +41,17 @@
                 </div>
             </div>
     </div>
-       
+
+        <script>
+        function registerFunction(){
+            document.getElementById('signup').addEventListener("click", ()=>{
+             window.location.href = "./register.html"
+             registerFunction()
+        })
+        }
+        registerFunction()
+     </script>  
+
 
         
     
